@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aruna.foodapp.Main4Activity"
+    tools:showIn="@layout/activity_main4">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="DINNER"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editText3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+
+    <RadioButton
+        android:text="RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton19"
+        android:layout_below="@+id/radioButton18"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/radioButton20" />
+
+    <RadioButton
+        android:text="CHAPPATHY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton16"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp" />
+
+    <RadioButton
+        android:text="CHICKEN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton17"
+        android:layout_below="@+id/radioButton16"
+        android:layout_alignStart="@+id/radioButton16" />
+
+    <RadioButton
+        android:text="VEGETABLES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton18"
+        android:layout_below="@+id/radioButton17"
+        android:layout_alignStart="@+id/radioButton17" />
+
+    <RadioButton
+        android:text="MILK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton20"
+        android:layout_below="@+id/radioButton18"
+        android:layout_alignStart="@+id/radioButton18" />
+
+    <RadioButton
+        android:text="EGG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton21"
+        android:layout_alignStart="@+id/radioButton20"
+        android:layout_below="@+id/radioButton20" />
+
+    <RadioButton
+        android:text="FRUITS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton23"
+        android:layout_below="@+id/radioButton22"
+        android:layout_alignStart="@+id/radioButton21" />
+
+    <RadioButton
+        android:text="CEREALS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton23"
+        android:layout_alignStart="@+id/radioButton23"
+        android:id="@+id/radioButton24" />
+
+    <Button
+        android:text="CALCULATE CALORIES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton24"
+        android:layout_marginTop="21dp"
+        android:id="@+id/button8" />
+
+    <Button
+        android:text="RESET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:id="@+id/button9"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_toEndOf="@+id/editText3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView5" />
+
+    <RadioButton
+        android:text="RICE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton22"
+        android:layout_below="@+id/radioButton21"
+        android:layout_alignStart="@+id/radioButton21" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView6"
+        android:width="500dp"
+        android:fontFamily="cursive"
+        android:height="30dp" />
+
+</RelativeLayout>
